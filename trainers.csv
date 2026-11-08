@@ -1,0 +1,7 @@
+trainer_id,trainer_name,branch_id,available_from,available_to,weekly_off
+TR-01,Meena Khan,BR-01,06:00:00,21:00:00,MON
+TR-02,Santosh Das,BR-02,06:00:00,21:00:00,THU
+TR-03,Asha Shah,BR-03,06:00:00,21:00:00,TUE
+TR-04,Arjun Gowda,BR-01,06:00:00,21:00:00,MON
+TR-05,Ishita Patil,BR-02,06:00:00,21:00:00,THU
+TR-06,Arjun Yadav,BR-03,06:00:00,21:00:00,WED
