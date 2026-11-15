@@ -1,0 +1,257 @@
+line_no,command,member_id,status,fee_or_amount,message
+3,BUY_PT_PACK,MEM-010,ACCEPTED,20000.00,PT pack purchased successfully: 20 sessions
+4,BOOK_PT,MEM-010,ACCEPTED,0.00,PT session booked successfully
+5,FREEZE,MEM-014,ACCEPTED,300.00,Freeze accepted
+6,TRANSFER,MEM-008,ACCEPTED,500.00,Transfer accepted. Cancelled bookings: 0
+7,FREEZE,MEM-022,ACCEPTED,300.00,Freeze accepted
+8,FREEZE,MEM-022,REJECTED,0.00,A freeze is already scheduled or active
+9,FREEZE,MEM-022,REJECTED,0.00,A freeze is already scheduled or active
+10,CANCEL_PT,MEM-010,ACCEPTED,0.00,Late cancellation recorded. Session returned
+11,FREEZE,MEM-018,REJECTED,0.00,At least 3 months must remain
+12,BOOK_PT,MEM-018,REJECTED,0.00,No valid PT pack or sessions available
+13,FREEZE,MEM-020,ACCEPTED,300.00,Freeze accepted
+14,BUY_PT_PACK,MEM-009,ACCEPTED,6000.00,PT pack purchased successfully: 5 sessions
+15,RENEW,MEM-014,ACCEPTED,25000.00,Membership renewed successfully
+16,STATEMENT,MEM-023,ACCEPTED,0.00,Statement generated successfully
+17,BUY_PT_PACK,MEM-022,ACCEPTED,6000.00,PT pack purchased successfully: 5 sessions
+18,BOOK_PT,MEM-022,ACCEPTED,0.00,PT session booked successfully
+19,BUY_PT_PACK,MEM-001,ACCEPTED,6000.00,PT pack purchased successfully: 5 sessions
+20,BUY_PT_PACK,MEM-021,ACCEPTED,6000.00,PT pack purchased successfully: 5 sessions
+21,BUY_PT_PACK,MEM-002,ACCEPTED,6000.00,PT pack purchased successfully: 5 sessions
+22,BOOK_PT,MEM-002,ACCEPTED,0.00,PT session booked successfully
+23,BOOK_PT,MEM-001,REJECTED,0.00,Trainer already has a booking
+24,BUY_PT_PACK,MEM-012,ACCEPTED,20000.00,PT pack purchased successfully: 20 sessions
+25,CANCEL_PT,MEM-022,ACCEPTED,0.00,Late cancellation recorded. Session returned
+26,BUY_PT_PACK,MEM-011,ACCEPTED,20000.00,PT pack purchased successfully: 20 sessions
+27,BUY_PT_PACK,MEM-025,ACCEPTED,11000.00,PT pack purchased successfully: 10 sessions
+28,COMPLETE_PT,MEM-001,REJECTED,0.00,PT booking not found
+29,BUY_PT_PACK,MEM-023,ACCEPTED,6000.00,PT pack purchased successfully: 5 sessions
+30,BOOK_CLASS,MEM-016,ACCEPTED,0.00,Class booked successfully
+31,BOOK_CLASS,MEM-012,ACCEPTED,0.00,Class booked successfully
+32,BOOK_CLASS,MEM-011,REJECTED,0.00,PLUS members can book only at home branch
+33,BOOK_CLASS,MEM-005,REJECTED,0.00,PLUS members can book only at home branch
+34,BOOK_CLASS,MEM-020,REJECTED,0.00,PLUS members can book only at home branch
+35,BOOK_CLASS,MEM-004,REJECTED,0.00,PLUS members can book only at home branch
+36,BUY_PT_PACK,MEM-008,ACCEPTED,20000.00,PT pack purchased successfully: 20 sessions
+37,BOOK_CLASS,MEM-014,REJECTED,0.00,PLUS members can book only at home branch
+38,EXTEND_FREEZE,MEM-020,REJECTED,0.00,Member is not frozen
+39,BUY_PT_PACK,MEM-013,ACCEPTED,20000.00,PT pack purchased successfully: 20 sessions
+40,BOOK_CLASS,MEM-019,ACCEPTED,0.00,Class booked successfully
+41,BOOK_CLASS,MEM-015,ACCEPTED,0.00,Class booked successfully
+42,BOOK_CLASS,MEM-022,ACCEPTED,0.00,Class booked successfully
+43,BOOK_CLASS,MEM-022,REJECTED,0.00,PLUS members can book only at home branch
+44,BOOK_CLASS,MEM-025,REJECTED,0.00,PLUS members can book only at home branch
+45,BOOK_CLASS,MEM-024,ACCEPTED,0.00,Class booked successfully
+46,BOOK_CLASS,MEM-006,REJECTED,0.00,PLUS members can book only at home branch
+47,BOOK_CLASS,MEM-021,ACCEPTED,0.00,Class booked successfully
+48,BOOK_PT,MEM-013,REJECTED,0.00,Trainer is not available
+49,CANCEL_CLASS,MEM-016,ACCEPTED,0.00,Class booking cancelled. Waitlist is empty
+50,BOOK_CLASS,MEM-009,ACCEPTED,0.00,Class booked successfully
+51,CANCEL_CLASS,MEM-019,ACCEPTED,0.00,Class booking cancelled. Waitlist is empty
+52,FREEZE,MEM-024,ACCEPTED,300.00,Freeze accepted
+53,BOOK_CLASS,MEM-006,ACCEPTED,0.00,Class booked successfully
+54,BOOK_CLASS,MEM-005,ACCEPTED,0.00,Class booked successfully
+55,BOOK_PT,MEM-010,ACCEPTED,0.00,PT session booked successfully
+56,BOOK_CLASS,MEM-010,ACCEPTED,0.00,Class booked successfully
+57,CANCEL_CLASS,MEM-021,ACCEPTED,0.00,Class booking cancelled. Promotion not allowed within 2 hours of class
+58,ATTEND_CLASS,MEM-022,REJECTED,0.00,Confirmed class booking not found
+59,ATTEND_CLASS,MEM-010,ACCEPTED,0.00,Class attendance recorded successfully
+60,ATTEND_CLASS,MEM-005,ACCEPTED,0.00,Class attendance recorded successfully
+61,ATTEND_CLASS,MEM-012,ACCEPTED,0.00,Class attendance recorded successfully
+62,NOSHOW_CLASS,MEM-006,ACCEPTED,0.00,No-show recorded
+63,ATTEND_CLASS,MEM-011,REJECTED,0.00,Confirmed class booking not found
+64,ATTEND_CLASS,MEM-022,ACCEPTED,0.00,Class attendance recorded successfully
+65,ATTEND_CLASS,MEM-015,ACCEPTED,0.00,Class attendance recorded successfully
+66,ATTEND_CLASS,MEM-004,REJECTED,0.00,Confirmed class booking not found
+67,ATTEND_CLASS,MEM-006,REJECTED,0.00,Confirmed class booking not found
+68,ATTEND_CLASS,MEM-014,REJECTED,0.00,Confirmed class booking not found
+69,ATTEND_CLASS,MEM-005,REJECTED,0.00,Confirmed class booking not found
+70,ATTEND_CLASS,MEM-020,REJECTED,0.00,Confirmed class booking not found
+71,ATTEND_CLASS,MEM-024,ACCEPTED,0.00,Class attendance recorded successfully
+72,NOSHOW_CLASS,MEM-009,ACCEPTED,0.00,No-show recorded
+73,NOSHOW_CLASS,MEM-025,REJECTED,0.00,Confirmed class booking not found
+74,COMPLETE_PT,MEM-013,REJECTED,0.00,PT booking not found
+75,STATEMENT,MEM-012,ACCEPTED,0.00,Statement generated successfully
+76,BOOK_PT,MEM-013,ACCEPTED,0.00,PT session booked successfully
+77,BOOK_CLASS,MEM-024,REJECTED,0.00,PLUS members can book only at home branch
+78,BOOK_CLASS,MEM-009,ACCEPTED,0.00,Class booked successfully
+79,BOOK_CLASS,MEM-020,ACCEPTED,0.00,Class booked successfully
+80,BOOK_CLASS,MEM-025,ACCEPTED,0.00,Class booked successfully
+81,BOOK_CLASS,MEM-021,ACCEPTED,0.00,Class booked successfully
+82,BOOK_CLASS,MEM-023,ACCEPTED,0.00,Class booked successfully
+83,BOOK_CLASS,MEM-010,ACCEPTED,0.00,Class booked successfully
+84,BOOK_CLASS,MEM-017,REJECTED,0.00,PLUS members can book only at home branch
+85,BOOK_CLASS,MEM-006,ACCEPTED,0.00,Class booked successfully
+86,BOOK_CLASS,MEM-009,ACCEPTED,0.00,Class booked successfully
+87,BOOK_CLASS,MEM-012,ACCEPTED,0.00,Class booked successfully
+88,BOOK_CLASS,MEM-014,REJECTED,0.00,PLUS members can book only at home branch
+89,STATEMENT,MEM-014,ACCEPTED,0.00,Statement generated successfully
+90,CANCEL_PT,MEM-010,ACCEPTED,0.00,Late cancellation recorded. Session returned
+91,BOOK_CLASS,MEM-020,REJECTED,0.00,Member already has a booking for this class
+92,UNFREEZE,MEM-014,REJECTED,0.00,Freeze period is still active
+93,BOOK_CLASS,MEM-004,ACCEPTED,0.00,Class booked successfully
+94,BOOK_CLASS,MEM-005,REJECTED,0.00,PLUS members can book only at home branch
+95,BOOK_CLASS,MEM-006,REJECTED,0.00,PLUS members can book only at home branch
+96,BOOK_CLASS,MEM-011,REJECTED,0.00,PLUS members can book only at home branch
+97,BOOK_CLASS,MEM-014,ACCEPTED,0.00,Class booked successfully
+98,BOOK_CLASS,MEM-017,REJECTED,0.00,PLUS members can book only at home branch
+99,BOOK_CLASS,MEM-020,REJECTED,0.00,PLUS members can book only at home branch
+100,BOOK_CLASS,MEM-001,ACCEPTED,0.00,Class booked successfully
+101,BOOK_CLASS,MEM-018,REJECTED,0.00,BASIC members cannot book group classes
+102,BOOK_CLASS,MEM-022,REJECTED,0.00,PLUS members can book only at home branch
+103,BOOK_CLASS,MEM-025,ACCEPTED,0.00,Class booked successfully
+104,CANCEL_CLASS,MEM-024,REJECTED,0.00,Active class booking not found
+105,BOOK_PT,MEM-013,REJECTED,0.00,Trainer is not available
+106,ATTEND_CLASS,MEM-020,ACCEPTED,0.00,Class attendance recorded successfully
+107,ATTEND_CLASS,MEM-025,ACCEPTED,0.00,Class attendance recorded successfully
+108,ATTEND_CLASS,MEM-021,ACCEPTED,0.00,Class attendance recorded successfully
+109,ATTEND_CLASS,MEM-023,ACCEPTED,0.00,Class attendance recorded successfully
+110,ATTEND_CLASS,MEM-010,ACCEPTED,0.00,Class attendance recorded successfully
+111,ATTEND_CLASS,MEM-017,REJECTED,0.00,Confirmed class booking not found
+112,ATTEND_CLASS,MEM-006,ACCEPTED,0.00,Class attendance recorded successfully
+113,CANCEL_PT,MEM-013,ACCEPTED,0.00,Late cancellation recorded. Session returned
+114,RENEW,MEM-023,ACCEPTED,25000.00,Membership renewed successfully
+115,BOOK_CLASS,MEM-020,ACCEPTED,0.00,Class booked successfully
+116,BOOK_CLASS,MEM-017,REJECTED,0.00,PLUS members can book only at home branch
+117,BOOK_CLASS,MEM-023,ACCEPTED,0.00,Class booked successfully
+118,BUY_PT_PACK,MEM-019,ACCEPTED,11000.00,PT pack purchased successfully: 10 sessions
+119,BOOK_CLASS,MEM-019,ACCEPTED,0.00,Class booked successfully
+120,FREEZE,MEM-019,ACCEPTED,0.00,Freeze accepted
+121,BOOK_PT,MEM-009,ACCEPTED,0.00,PT session booked successfully
+122,BOOK_CLASS,MEM-016,ACCEPTED,0.00,Class booked successfully
+123,BOOK_CLASS,MEM-007,ACCEPTED,0.00,Class booked successfully
+124,BOOK_CLASS,MEM-005,ACCEPTED,0.00,Class booked successfully
+125,BOOK_CLASS,MEM-010,ACCEPTED,0.00,Class booked successfully
+126,BOOK_CLASS,MEM-004,ACCEPTED,0.00,Class booked successfully
+127,BOOK_CLASS,MEM-007,REJECTED,0.00,PLUS members can book only at home branch
+128,BOOK_CLASS,MEM-012,ACCEPTED,0.00,Class booked successfully
+129,COMPLETE_PT,MEM-013,REJECTED,0.00,PT booking not found
+130,BOOK_CLASS,MEM-021,ACCEPTED,0.00,Class booked successfully
+131,CANCEL_CLASS,MEM-023,ACCEPTED,0.00,Class booking cancelled. Promotion not allowed within 2 hours of class
+132,ATTEND_CLASS,MEM-005,ACCEPTED,0.00,Class attendance recorded successfully
+133,ATTEND_CLASS,MEM-020,ACCEPTED,0.00,Class attendance recorded successfully
+134,ATTEND_CLASS,MEM-025,ACCEPTED,0.00,Class attendance recorded successfully
+135,ATTEND_CLASS,MEM-019,ACCEPTED,0.00,Class attendance recorded successfully
+136,ATTEND_CLASS,MEM-017,REJECTED,0.00,Confirmed class booking not found
+137,ATTEND_CLASS,MEM-022,REJECTED,0.00,Confirmed class booking not found
+138,ATTEND_CLASS,MEM-021,ACCEPTED,0.00,Class attendance recorded successfully
+139,NOSHOW_CLASS,MEM-012,ACCEPTED,0.00,No-show recorded
+140,NOSHOW_CLASS,MEM-016,ACCEPTED,0.00,No-show recorded
+141,BOOK_PT,MEM-011,ACCEPTED,0.00,PT session booked successfully
+142,CANCEL_PT,MEM-009,ACCEPTED,0.00,Late cancellation. Session consumed
+143,STATEMENT,MEM-021,ACCEPTED,0.00,Statement generated successfully
+144,STATEMENT,MEM-017,ACCEPTED,0.00,Statement generated successfully
+145,BOOK_CLASS,MEM-009,ACCEPTED,0.00,Class booked successfully
+146,BOOK_PT,MEM-008,ACCEPTED,0.00,PT session booked successfully
+147,BOOK_PT,MEM-011,ACCEPTED,0.00,PT session booked successfully
+148,BOOK_CLASS,MEM-015,ACCEPTED,0.00,Class booked successfully
+149,BOOK_CLASS,MEM-012,ACCEPTED,0.00,Class booked successfully
+150,BOOK_PT,MEM-023,ACCEPTED,0.00,PT session booked successfully
+151,BOOK_CLASS,MEM-020,REJECTED,0.00,PLUS members can book only at home branch
+152,RENEW,MEM-005,ACCEPTED,25000.00,Membership renewed successfully
+153,FREEZE,MEM-009,ACCEPTED,0.00,Freeze accepted
+154,CANCEL_CLASS,MEM-009,ACCEPTED,0.00,Class booking cancelled. Waitlist is empty
+155,CANCEL_CLASS,MEM-010,ACCEPTED,0.00,Class booking cancelled. Waitlist is empty
+156,COMPLETE_PT,MEM-008,ACCEPTED,0.00,Session completed and consumed
+157,CANCEL_PT,MEM-011,ACCEPTED,0.00,Late cancellation recorded. Session returned
+158,BOOK_CLASS,MEM-006,REJECTED,0.00,PLUS members can book only at home branch
+159,BOOK_CLASS,MEM-001,ACCEPTED,0.00,Class booked successfully
+160,FREEZE,MEM-003,ACCEPTED,300.00,Freeze accepted
+161,STATEMENT,MEM-001,ACCEPTED,0.00,Statement generated successfully
+162,STATEMENT,MEM-005,ACCEPTED,0.00,Statement generated successfully
+163,CANCEL_CLASS,MEM-004,ACCEPTED,0.00,Class booking cancelled. Promotion not allowed within 2 hours of class
+164,NOSHOW_PT,MEM-011,ACCEPTED,0.00,No-show recorded. Session consumed
+165,ATTEND_CLASS,MEM-006,REJECTED,0.00,Confirmed class booking not found
+166,ATTEND_CLASS,MEM-020,REJECTED,0.00,Confirmed class booking not found
+167,ATTEND_CLASS,MEM-012,ACCEPTED,0.00,Class attendance recorded successfully
+168,ATTEND_CLASS,MEM-015,ACCEPTED,0.00,Class attendance recorded successfully
+169,ATTEND_CLASS,MEM-001,ACCEPTED,0.00,Class attendance recorded successfully
+170,BOOK_PT,MEM-021,ACCEPTED,0.00,PT session booked successfully
+171,STATEMENT,MEM-013,ACCEPTED,0.00,Statement generated successfully
+172,CANCEL_PT,MEM-023,ACCEPTED,0.00,Late cancellation recorded. Session returned
+173,STATEMENT,MEM-009,ACCEPTED,0.00,Statement generated successfully
+174,BOOK_PT,MEM-008,ACCEPTED,0.00,PT session booked successfully
+175,BOOK_CLASS,MEM-012,ACCEPTED,0.00,Class booked successfully
+176,BOOK_PT,MEM-021,ACCEPTED,0.00,PT session booked successfully
+177,BOOK_PT,MEM-009,ACCEPTED,0.00,PT session booked successfully
+178,BOOK_PT,MEM-023,ACCEPTED,0.00,PT session booked successfully
+179,COMPLETE_PT,MEM-021,ACCEPTED,0.00,Session completed and consumed
+180,STATEMENT,MEM-012,ACCEPTED,0.00,Statement generated successfully
+181,COMPLETE_PT,MEM-009,ACCEPTED,0.00,Session completed and consumed
+182,STATEMENT,MEM-015,ACCEPTED,0.00,Statement generated successfully
+183,BOOK_PT,MEM-010,ACCEPTED,0.00,PT session booked successfully
+184,BOOK_CLASS,MEM-023,REJECTED,0.00,PLUS members can book only at home branch
+185,BOOK_CLASS,MEM-016,ACCEPTED,0.00,Class booked successfully
+186,COMPLETE_PT,MEM-021,ACCEPTED,0.00,Session completed and consumed
+187,BOOK_CLASS,MEM-005,REJECTED,0.00,PLUS members can book only at home branch
+188,COMPLETE_PT,MEM-023,ACCEPTED,0.00,Session completed and consumed
+189,COMPLETE_PT,MEM-008,ACCEPTED,0.00,Session completed and consumed
+190,BOOK_CLASS,MEM-004,ACCEPTED,0.00,Class booked successfully
+191,BOOK_CLASS,MEM-001,ACCEPTED,0.00,Class booked successfully
+192,CANCEL_PT,MEM-010,ACCEPTED,0.00,Late cancellation recorded. Session returned
+193,BOOK_CLASS,MEM-009,ACCEPTED,0.00,Class booked successfully
+194,BOOK_CLASS,MEM-009,REJECTED,0.00,Member already has a booking for this class
+195,BOOK_PT,MEM-021,ACCEPTED,0.00,PT session booked successfully
+196,BOOK_CLASS,MEM-021,ACCEPTED,0.00,Class booked successfully
+197,STATEMENT,MEM-007,ACCEPTED,0.00,Statement generated successfully
+198,CANCEL_CLASS,MEM-012,ACCEPTED,0.00,Class booking cancelled. Waitlist is empty
+199,CANCEL_CLASS,MEM-001,ACCEPTED,0.00,Class booking cancelled. Waitlist is empty
+200,BOOK_PT,MEM-012,REJECTED,0.00,Trainer is not available
+201,ATTEND_CLASS,MEM-023,REJECTED,0.00,Confirmed class booking not found
+202,ATTEND_CLASS,MEM-016,ACCEPTED,0.00,Class attendance recorded successfully
+203,NOSHOW_CLASS,MEM-009,ACCEPTED,0.00,No-show recorded. Member blocked for 7 days
+204,NOSHOW_CLASS,MEM-009,REJECTED,0.00,Confirmed class booking not found
+205,NOSHOW_CLASS,MEM-004,ACCEPTED,0.00,No-show recorded
+206,BOOK_CLASS,MEM-005,REJECTED,0.00,PLUS members can book only at home branch
+207,BOOK_CLASS,MEM-006,REJECTED,0.00,PLUS members can book only at home branch
+208,BOOK_CLASS,MEM-022,ACCEPTED,0.00,Class booked successfully
+209,CANCEL,MEM-006,ACCEPTED,0.00,Membership refund: 0; PT refund: 0
+210,STATEMENT,MEM-021,ACCEPTED,0.00,Statement generated successfully
+211,BOOK_PT,MEM-010,ACCEPTED,0.00,PT session booked successfully
+212,BOOK_CLASS,MEM-016,ACCEPTED,0.00,Class booked successfully
+213,BOOK_CLASS,MEM-014,REJECTED,0.00,Membership is not active
+214,BOOK_CLASS,MEM-010,ACCEPTED,0.00,Class booked successfully
+215,BOOK_CLASS,MEM-009,REJECTED,0.00,Member is blocked from class booking
+216,BOOK_CLASS,MEM-017,ACCEPTED,0.00,Class booked successfully
+217,TRANSFER,MEM-012,ACCEPTED,0.00,Transfer accepted. Cancelled bookings: 0
+218,CANCEL_PT,MEM-010,ACCEPTED,0.00,Session cancelled. Session returned
+219,BOOK_CLASS,MEM-025,REJECTED,0.00,PLUS members can book only at home branch
+220,BOOK_CLASS,MEM-015,ACCEPTED,0.00,Class booked successfully
+221,NOSHOW_PT,MEM-021,ACCEPTED,0.00,No-show recorded. Session consumed
+222,NOSHOW_CLASS,MEM-005,REJECTED,0.00,Confirmed class booking not found
+223,BOOK_CLASS,MEM-004,REJECTED,0.00,PLUS members can book only at home branch
+224,CANCEL_PT,MEM-012,REJECTED,0.00,PT booking not found
+225,BOOK_CLASS,MEM-007,REJECTED,0.00,PLUS members can book only at home branch
+226,BOOK_CLASS,MEM-024,ACCEPTED,0.00,Class booked successfully
+227,CANCEL_CLASS,MEM-004,REJECTED,0.00,Active class booking not found
+228,UNFREEZE,MEM-003,REJECTED,0.00,Freeze period is still active
+229,CANCEL_CLASS,MEM-014,REJECTED,0.00,Active class booking not found
+230,ATTEND_CLASS,MEM-005,REJECTED,0.00,Confirmed class booking not found
+231,ATTEND_CLASS,MEM-010,ACCEPTED,0.00,Class attendance recorded successfully
+232,ATTEND_CLASS,MEM-024,ACCEPTED,0.00,Class attendance recorded successfully
+233,ATTEND_CLASS,MEM-009,REJECTED,0.00,Confirmed class booking not found
+234,ATTEND_CLASS,MEM-016,ACCEPTED,0.00,Class attendance recorded successfully
+235,ATTEND_CLASS,MEM-021,ACCEPTED,0.00,Class attendance recorded successfully
+236,ATTEND_CLASS,MEM-017,ACCEPTED,0.00,Class attendance recorded successfully
+237,ATTEND_CLASS,MEM-022,ACCEPTED,0.00,Class attendance recorded successfully
+238,NOSHOW_CLASS,MEM-006,REJECTED,0.00,Confirmed class booking not found
+239,NOSHOW_CLASS,MEM-025,REJECTED,0.00,Confirmed class booking not found
+240,NOSHOW_CLASS,MEM-015,ACCEPTED,0.00,No-show recorded
+241,RENEW,MEM-017,ACCEPTED,2500.00,Membership renewed successfully
+242,CANCEL,MEM-017,ACCEPTED,0.00,Membership refund: 0; PT refund: 0
+243,BOOK_PT,MEM-021,ACCEPTED,0.00,PT session booked successfully
+244,BOOK_PT,MEM-008,REJECTED,0.00,Trainer is not available
+245,STATEMENT,MEM-012,ACCEPTED,0.00,Statement generated successfully
+246,CANCEL_PT,MEM-021,ACCEPTED,0.00,Session cancelled. Session returned
+247,CANCEL_PT,MEM-008,REJECTED,0.00,PT booking not found
+248,STATEMENT,MEM-011,ACCEPTED,0.00,Statement generated successfully
+249,FREEZE,MEM-023,ACCEPTED,0.00,Freeze accepted
+250,RENEW,MEM-023,ACCEPTED,25000.00,Membership renewed successfully
+251,FREEZE,MEM-021,ACCEPTED,0.00,Freeze accepted
+252,STATEMENT,MEM-025,ACCEPTED,0.00,Statement generated successfully
+253,STATEMENT,MEM-024,ACCEPTED,0.00,Statement generated successfully
+254,STATEMENT,MEM-019,ACCEPTED,0.00,Statement generated successfully
+255,STATEMENT,MEM-020,ACCEPTED,0.00,Statement generated successfully
+256,STATEMENT,MEM-010,ACCEPTED,0.00,Statement generated successfully
+257,STATEMENT,MEM-022,ACCEPTED,0.00,Statement generated successfully
+258,UNFREEZE,MEM-023,REJECTED,0.00,Freeze period is still active

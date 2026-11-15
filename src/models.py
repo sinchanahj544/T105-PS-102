@@ -27,3 +27,7 @@ class Member:
 
     # Membership loyalty information
     continuous_membership_years: int = 0
+
+    # Additional CSV information
+    enrolment_date: Optional[date] = None
+    amount_paid_current_term: float = 0.0

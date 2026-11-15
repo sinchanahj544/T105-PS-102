@@ -137,10 +137,8 @@ class ClassBookingManager:
         return None
 
     # BR-06 and BR-07: Book a class
+   
     def book_class(self, booking_id, member_id, class_id, booking_time):
-
-        if booking_id in self.bookings:
-            return "Booking ID already exists"
 
         if member_id not in self.members:
             return "Member not found"
@@ -148,10 +146,17 @@ class ClassBookingManager:
         if class_id not in self.classes:
             return "Class not found"
 
+        for booking in self.bookings.values():
+            if (
+                booking.member_id == member_id
+                and booking.class_id == class_id
+                and booking.status in ("CONFIRMED", "WAITLISTED")
+            ):
+                return "Member already has a booking for this class"
+
         member = self.members[member_id]
         fitness_class = self.classes[class_id]
 
-        # Check membership state before capacity
         error = self.check_member_eligibility(
             member, fitness_class, booking_time
         )
@@ -162,10 +167,10 @@ class ClassBookingManager:
         if booking_time >= fitness_class.start_time:
             return "Class booking is closed"
 
-        # Capacity is checked before quota and waitlist placement
-        is_full = len(fitness_class.confirmed) >= fitness_class.capacity
+        is_full = (
+            len(fitness_class.confirmed) >= fitness_class.capacity
+        )
 
-        # Check quota before waitlist placement
         if not self.has_quota(member_id, booking_time.date()):
             return "Monthly class quota exceeded"
 
@@ -181,14 +186,10 @@ class ClassBookingManager:
         if is_full:
             booking.status = "WAITLISTED"
             fitness_class.waitlist.append(booking_id)
-
             self.sort_waitlist(class_id)
-
             return "Class full. Member added to waitlist"
 
         fitness_class.confirmed.append(booking_id)
-
-        # Confirmed booking consumes quota
         self.quota_usage[member_id].append(booking_time.date())
 
         return "Class booked successfully"
@@ -347,6 +348,28 @@ class ClassBookingManager:
             return "No-show recorded. Member blocked for 7 days"
 
         return "No-show recorded"
+    
+    def mark_attended(self, booking_id, current_time):
+
+        if booking_id not in self.bookings:
+            return "Booking not found"
+
+        booking = self.bookings[booking_id]
+
+        if booking.status != "CONFIRMED":
+            return "Invalid booking status"
+
+        fitness_class = self.classes[booking.class_id]
+
+        if current_time < fitness_class.start_time:
+            return "Class has not started yet"
+
+        fitness_class.confirmed.remove(booking_id)
+
+        # Quota remains consumed after attendance
+        booking.status = "ATTENDED"
+
+        return "Class attendance recorded successfully"
 
     # Check whether a member is blocked
     def is_member_blocked(self, member_id, current_time):
